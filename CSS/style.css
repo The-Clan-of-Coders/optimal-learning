@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* CSS HEX */
+/* --crimson: #d7263dff;
+--portland-orange: #f46036ff;
+--space-cadet: #2e294eff;
+--persian-green: #1b998bff;
+--thistle: #d3c4e3ff; */
+
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #d3c4e3;
+  height: 100px;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+.navbar-ul {
+  display: flex;
+  color: #2e294e;
+}
+
+.navbar-ul li {
+  list-style-type: none;
+  margin: 0 10px;
+  font-size: 22px;
+  font-family: "Indie Flower", cursive;
+}
+
+/* Logo  */
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 33px;
+  font-family: "Indie Flower", cursive;
+}

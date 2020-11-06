@@ -1,0 +1,37 @@
+/*Main CSS*/
+.info-section {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px;
+}
+
+.info-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/*Math Option Section*/
+.math-options-section {
+  display: flex;
+  justify-content: center;
+}
+
+/*Math option container*/
+.math-options-container {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+/*Math options*/
+.math-option {
+  height: 210px;
+  width: 210px;
+  background-color: cyan;
+  margin: 10px;
+}
+
+.math-option img {
+  width: 200px;
+  height: 200px;
+}
